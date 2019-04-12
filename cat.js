@@ -3,4 +3,7 @@ function Cat(weight) {
 	this.weight  = weight;
 }
 
+Cat.prototypes.sleep = function(){
+	console.log('sleeping....')
+}
 module.exports = Cat;
